@@ -120,7 +120,7 @@ int home() {
   printf("\t\t\t\t\t Select an Option:");
   SetColor(12);
   gotoxy(40, 25);
-  printf("© Developed By Hariharasudhan Arul(015) and Deepak Ram(006)");
+  printf("Â© Developed By Hariharasudhan Arul(015) and Deepak Ram(006)");
   SetColor(45);
   gotoxy(59, 14);
   hswitch = getche();
@@ -1187,10 +1187,10 @@ int teacher_log_in() {
   int i, found = 0, s = 0;
   char name[20], password[20], p;
   char tID[20] = {
-    "172352142"
+    "12345678"
   };
   char tPASS[20] = {
-    "2142"
+    "1234"
   };
   SetColor(14);
   printf("\n\n\t\t\t\t\t  ===Teachers Portal===\n\n\n\n\n");
@@ -1244,10 +1244,10 @@ int admin_log_in() {
   int i, s = 0;
   char name[20], password[20], p;
   char tID[20] = {
-    "172352142"
+    "12345678"
   };
   char tPASS[20] = {
-    "2142"
+    "1234"
   };
   SetColor(14);
   printf("\n\n\t\t\t\t\t  ===Admin Portal===\n\n\n\n\n");
